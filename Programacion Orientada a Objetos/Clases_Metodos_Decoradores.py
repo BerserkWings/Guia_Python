@@ -1,4 +1,6 @@
-
+"""
+Estos son algunos ejemplos de como se usan las clases, metodos y decoradores en Python y vemos el tema de POO.
+"""
 
 print("\n-----------------------------------------------------------------------------------------------------------\n")
 
@@ -84,7 +86,8 @@ class Rectangulo:
         self.alto = alto
 
 # Usando decorador @property para poder usar el atributo del metodo en modo lectura, útil cuando quieres calcular un
-# valor basado en otros atributos de la clase sin que el usuario tenga que llamar explícitamente a un método para obtener ese valor.
+# valor basado en otros atributos de la clase sin que el usuario tenga que llamar explícitamente a un método para
+# obtener ese valor.
 
     @property
     def area(self):
